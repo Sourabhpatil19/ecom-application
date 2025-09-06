@@ -1,8 +1,8 @@
 package com.app.ecom.service;
 
-import com.app.ecom.dto.UserRequest;
-import com.app.ecom.dto.UserResponse;
-import com.app.ecom.entites.User;
+import com.app.ecom.dto.user.UserRequest;
+import com.app.ecom.dto.user.UserResponse;
+import com.app.ecom.entites.user.User;
 import com.app.ecom.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

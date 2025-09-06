@@ -1,8 +1,8 @@
 package com.app.ecom.controller;
 
 
-import com.app.ecom.dto.ProductRequest;
-import com.app.ecom.dto.ProductResponse;
+import com.app.ecom.dto.product.ProductRequest;
+import com.app.ecom.dto.product.ProductResponse;
 import com.app.ecom.service.ProductService;
 import lombok.RequiredArgsConstructor;
 
@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequiredArgsConstructor

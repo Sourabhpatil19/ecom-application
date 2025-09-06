@@ -1,8 +1,8 @@
 package com.app.ecom.service;
 
-import com.app.ecom.dto.ProductRequest;
-import com.app.ecom.dto.ProductResponse;
-import com.app.ecom.entites.Product;
+import com.app.ecom.dto.product.ProductRequest;
+import com.app.ecom.dto.product.ProductResponse;
+import com.app.ecom.entites.product.Product;
 import com.app.ecom.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
@@ -10,8 +10,6 @@ import org.springframework.stereotype.Service;
 
 
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor

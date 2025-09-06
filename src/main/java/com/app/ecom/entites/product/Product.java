@@ -1,4 +1,4 @@
-package com.app.ecom.entites;
+package com.app.ecom.entites.product;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity(name = "product")
@@ -24,7 +25,7 @@ public class Product {
     private String name;
     private String description;
     private String category;
-    private String price;
+    private BigDecimal price;
     private String image;
     private Integer stockQuantity;
     private Boolean active=true;

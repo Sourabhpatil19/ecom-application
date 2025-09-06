@@ -1,10 +1,10 @@
 package com.app.ecom.repository;
 
-import com.app.ecom.entites.user.User;
+import com.app.ecom.entites.order.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User,Long> {
+public interface OrderRepository extends JpaRepository<Order,Long> {
 
 }

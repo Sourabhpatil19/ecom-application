@@ -1,7 +1,7 @@
 package com.app.ecom.repository;
 
 
-import com.app.ecom.entites.Product;
+import com.app.ecom.entites.product.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
